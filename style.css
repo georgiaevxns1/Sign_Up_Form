@@ -106,7 +106,7 @@ body {
 
 .section-2 {
     width: 100%;
-    height: 40%;
+    min-height: 410px;
     margin-top: 44px;
     margin-bottom: 44px;
     padding-bottom: 20px;
@@ -126,15 +126,16 @@ body {
 
 .form {
     display: flex;
+    width: 100%;
     flex-direction: row;
-    align-items: space-between;
+    padding: 0px 120px;
+    gap: 200px;
 }
 
 .form-section1, 
 .form-section2 {
     display: flex;
     flex-direction: column;
-    margin: 0px 120px;
     font-size: 18px;
     letter-spacing: 1.8px;
     gap: 24px;
@@ -154,6 +155,10 @@ body {
 
 .form input:focus:invalid { 
     border: 2px solid red;
+}
+.form-element {
+    display: flex;
+    flex-direction: column;
 }
 .section-3 {
     margin: 0px 80px;
@@ -176,6 +181,7 @@ body {
 .section-3 p {
     color: rgb(249, 248, 234);
     font-size: 18px;
+    margin-bottom: 64px;
 }
 .section-3 span {
     text-decoration: underline;
