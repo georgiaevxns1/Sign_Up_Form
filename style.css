@@ -68,14 +68,14 @@ body {
 
 .text-container {
     width: 65%;
-    height: 100%;
+    min-height: 1100px;
     display: flex;
     flex-direction: column;
 }
 
 .img-container {
     width: 35%;
-    min-height: 100%;
+    min-height: 1100px;
     position: relative;
     z-index: 1;
 
