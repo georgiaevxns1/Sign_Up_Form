@@ -1,5 +1,5 @@
 # Sign_Up_Form
-A responsive split-screen sign-up page for a fictional coffee subscription brand, Redwood Coffee Co, made as part of The Odin Project curriculum.
+A split-screen sign-up page for a fictional coffee subscription brand, Redwood Coffee Co, made as part of The Odin Project curriculum.
 
 This project focuses on layout structuring, form styling, validation states, and visual hierarchy using modern CSS techniques.
 
